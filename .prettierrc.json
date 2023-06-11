@@ -1,0 +1,10 @@
+{
+  "trailingComma": "all",
+  "semi": false,
+  "singleQuote": true,
+  "tabWidth": 4,
+  "printWidth": 120,
+  "overrides": [{ "files": ["*.json", "*.js"], "options": { "tabWidth": 4 } }],
+  "arrowParens": "avoid",
+  "bracketSpacing": true
+}

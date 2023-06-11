@@ -1,7 +1,7 @@
 export default function Page() {
-  return (
-    <div>
-      <h3>Welcom Slog</h3>
-    </div>
-  );
+    return (
+        <div>
+            <h1>Welcome Slog main page</h1>
+        </div>
+    )
 }
