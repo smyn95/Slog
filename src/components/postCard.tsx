@@ -9,7 +9,7 @@ type Props = {
 export default function PostCard({ post: { title, description, category, date, path } }: Props) {
     return (
         <Link href={`/posts/${path}`} className="grid h-full">
-            <article className="flex flex-col overflow-hidden rounded-md shadow-lg">
+            <article className="flex flex-col overflow-hidden rounded-md post-card">
                 <Image src={`/image/posts/${path}.png`} alt={title} width={300} height={160} className="w-full" />
                 <div className="flex flex-col justify-between h-full p-4">
                     <div>
