@@ -1,4 +1,10 @@
 import Profile from '@/components/pofile/Page';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+    title: 'About Me',
+    description: 'Introduce Myself',
+};
 
 const TITLE_CLASS = 'text-2xl font-bold text-gray-800 my-2';
 export default function Me() {
